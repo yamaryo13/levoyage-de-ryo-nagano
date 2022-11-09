@@ -94,14 +94,6 @@ a:hover {
 	animation-fill-mode: both;	/*アニメーションの待機中は最初のキーフレームを維持、終了後は最後のキーフレームを維持。*/
 }
 
-/*トップページの画像ロゴ(png画像)を、デフォルトでは非表示にする*/
-.home header #logo {
-	display: block;
-}
-
-/*ロゴアニメーションを使わない場合の設定*/
-.home.index2 header #logo {display: block;}
-.home.index2 svg {display: none;}
 
 /*トップページ以外のロゴ画像の幅*/
 header #logo {
